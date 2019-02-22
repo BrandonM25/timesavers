@@ -1,0 +1,24 @@
+{
+  "name": "timesavers",
+  "version": "1.0.0",
+  "description": "Tom's website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Brandon Matthews",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.7"
+  },
+  "engines": {
+    "node": "8.8.1"
+  }
+}

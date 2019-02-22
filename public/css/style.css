@@ -1,0 +1,106 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+
+html, body, .view {
+    height: 100%;
+}
+
+
+/* Half Page Carousel itself*/
+
+.carousel {
+    height: 100%;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item, .carousel .carousel-inner .active {
+    height: 100%;
+}
+
+
+/* Navbar animation */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+
+/* Adding color to the Navbar on mobile */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+    }
+}
+
+.slide-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Footer color for sake of consistency with Navbar */
+
+.page-footer {
+    background-color: #929FBA;
+}
+
+#clnhead {
+    color: #039be5;
+}
+
+.parallax {
+    background-image: url('/media/pexels-photo-713297.jpeg');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.story {
+    background-color: #fafafa;
+}
+
+.text {
+    margin-top: 100px;
+}
+
+.picture {
+    padding: 0px;
+}
+
+.accordion.accordion-1 p {
+    font-size: 1rem;
+}
+
+.accordion.accordion-1 .card {
+    border: 0;
+}
+
+.accordion.accordion-1 .card .card-header {
+    border: 0;
+}
+
+.accordion.accordion-1 .card .card-body {
+    line-height: 1.4;
+}
+
+.deep{
+    background-color: #eeeeee;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.phone{
+    font-size: 21px;
+}
