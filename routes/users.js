@@ -51,10 +51,8 @@ router.post('/send', function(req, res) {
         port: 465,
         secure: true,
         auth: {
-            type: 'OAuth2',
-            clientId: '398402135384-rpcl9lqhkgbl858t3ftjp0n98oph06rf.apps.googleusercontent.com',
             user: 'timesaversatl@gmail.com', // generated ethereal user
-            pass: 'Tom$harpe123' // generated ethereal password
+            pass: 'Tom$1211' // generated ethereal password
         },
         // tls:{
         //     rejectUnauthorized:false
